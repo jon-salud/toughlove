@@ -34,7 +34,7 @@ export function Header() {
                                 className="h-8 w-auto lg:hidden"
                             />
                             <img
-                                src="/images/ToughLove.webp"
+                                src="/toughlove/images/ToughLove.webp"
                                 alt="Toughlove New Zealand"
                                 className="h-16 w-auto hidden lg:block object-contain"
                             />
