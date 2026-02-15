@@ -29,7 +29,7 @@ export function Header() {
                     <div className="flex lg:flex-1">
                         <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
                             <img
-                                src="/images/ToughLoveLogo.svg"
+                                src="/toughlove/images/ToughLoveLogo.svg"
                                 alt="Toughlove Logo"
                                 className="h-8 w-auto lg:hidden"
                             />
@@ -80,7 +80,7 @@ export function Header() {
                         <div className="flex items-center justify-between">
                             <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
                                 <img
-                                    src="/images/ToughLoveLogo.svg"
+                                    src="/toughlove/images/ToughLoveLogo.svg"
                                     alt="Toughlove Logo"
                                     className="h-8 w-auto"
                                 />
@@ -103,10 +103,10 @@ export function Header() {
                                             key={item.name}
                                             to={item.href}
                                             className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 ${item.isButton
-                                                    ? item.variant === 'urgent'
-                                                        ? 'bg-red-600 text-white hover:bg-red-700 mt-2 text-center'
-                                                        : 'bg-red-50 text-red-700 hover:bg-red-100 mt-2 text-center'
-                                                    : 'text-gray-900 hover:bg-gray-50'
+                                                ? item.variant === 'urgent'
+                                                    ? 'bg-red-600 text-white hover:bg-red-700 mt-2 text-center'
+                                                    : 'bg-red-50 text-red-700 hover:bg-red-100 mt-2 text-center'
+                                                : 'text-gray-900 hover:bg-gray-50'
                                                 }`}
                                             onClick={() => setMobileMenuOpen(false)}
                                         >

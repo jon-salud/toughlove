@@ -89,8 +89,8 @@ export function Home() {
             <section className="text-center pt-12 pb-4 border-t border-gray-200/50">
                 <p className="text-sm font-semibold tracking-wider text-gray-500 uppercase mb-8">Proudly Supported By</p>
                 <div className="flex flex-wrap justify-center items-center gap-12 grayscale hover:grayscale-0 transition-all duration-500">
-                    <img src="/images/four-winds.png" alt="Four Winds Foundation" className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition" />
-                    <img src="/images/lgb-logo.jpg" alt="Lottery Grants Board" className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition mix-blend-multiply" />
+                    <img src="/toughlove/images/four-winds.png" alt="Four Winds Foundation" className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition" />
+                    <img src="/toughlove/images/lgb-logo.jpg" alt="Lottery Grants Board" className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition mix-blend-multiply" />
                 </div>
             </section>
         </div>
