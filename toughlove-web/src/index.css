@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+    background-image: url('/images/1_swirl.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
