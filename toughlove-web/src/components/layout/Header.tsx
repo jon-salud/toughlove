@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import toughLoveLogo from '../../assets/images/ToughLove.webp';
 
 const navigation = [
     { name: 'ABOUT US', href: '/about' },
@@ -34,7 +35,7 @@ export function Header() {
                                 className="h-8 w-auto lg:hidden"
                             />
                             <img
-                                src="/toughlove/images/ToughLove.webp"
+                                src={toughLoveLogo}
                                 alt="Toughlove New Zealand"
                                 className="h-16 w-auto hidden lg:block object-contain"
                             />
